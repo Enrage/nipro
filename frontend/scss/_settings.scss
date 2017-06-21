@@ -1,0 +1,60 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url("../fonts/opensans.eot");
+	src: local('Open Sans'),
+	url("../fonts/opensans.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/opensans.woff") format("woff"),
+	url("../fonts/opensans.woff2") format("woff2"),
+	url("../fonts/opensans.ttf") format("truetype"),
+	url("../fonts/opensans.svg#opensans") format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("../fonts/opensanssemibold.eot");
+	src: local('Open Sans'),
+	url("../fonts/opensanssemibold.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/opensanssemibold.woff") format("woff"),
+	url("../fonts/opensanssemibold.woff2") format("woff2"),
+	url("../fonts/opensanssemibold.ttf") format("truetype"),
+	url("../fonts/opensanssemibold.svg#opensanssemibold") format("svg");
+	font-weight: 600;
+	font-style: normal;
+}
+
+$font: 'Open Sans', Roboto, sans-serif;
+$main_color: #000;
+$second_color: #777;
+$light_bg: #f3f3f3;
+$add_color: #ffe8ba;
+
+@mixin bottom_tran_grad($color) {
+	background: linear-gradient(bottom, $color, transparent);
+}
+@mixin transition($p, $d, $t) {
+	transition: $p $d $t;
+}
+
+.button {
+	background: #fff;
+	color: #000;
+	cursor: pointer;
+	display: block;
+	font: 16px $font;
+	height: 35px;
+	padding: 15px 0 0;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 200px;
+	z-index: 20;
+}
+
+.h2 {
+	// margin-top: 100px;
+	font-size: 28px;
+	text-transform: uppercase;
+}

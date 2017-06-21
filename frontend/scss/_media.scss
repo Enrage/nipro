@@ -1,0 +1,104 @@
+@media only screen and (max-width: 1100px) {
+	#wrapper {
+		.welcome_section {
+			.welcome {
+				> p {
+					font-size: 15px;
+				}
+
+				.welcome_blocks {
+					div {
+						.welcome_text {
+							font-size: 15px;
+						}
+					}
+				}
+			}
+		}
+
+		.about_us {
+			.about {
+				img {
+					max-width: 400px;
+				}
+				.about_text {
+					p {
+						font-size: 15px;
+					}
+				}
+			}
+		}
+
+		.recent_work_section {
+			.recent_work {
+				.works {
+					.work {
+						img {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+
+		.why_choose_section {
+			.why_choose {
+				.choose_blocks {
+					.choose {
+						p {
+							font-size: 15px;
+						}
+					}
+				}
+			}
+		}
+
+		.work_with_us_section {
+			.work_with_us {
+				.workers {
+					.worker {
+						> h3 {
+							font-size: 17px;
+						}
+						> p {
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+
+		.best_price_section {
+			.best_price {
+				.plans {
+					.pricing_plan {
+						h3 {
+							font-size: 18px;
+						}
+						h4 {
+							font-size: 18px;
+							span {
+								font-size: 26px;
+							}
+						}
+						ul {
+							li {
+								font-size: 14px;
+							}
+						}
+						.button_more {
+							padding: 0;
+							line-height: 35px;
+							height: 35px;
+							margin-left: -70px;
+							width: 140px;
+							font-size: 15px;
+						}
+					}
+				}
+			}
+		}
+
+
+	}
+}
